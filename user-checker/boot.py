@@ -106,7 +106,7 @@ def loading(tr=False):
     c.print()
 
 
-# ── Theme selection ────────────────────────────────────────────────────────
+# thewwmes
 
 def theme_select(tr=False):
     _clr()
@@ -149,8 +149,7 @@ def theme_select(tr=False):
     config.set_theme(ch)
 
 
-# ── Language selection ─────────────────────────────────────────────────────
-
+#, langs
 def lang_select():
     _clr()
     title_art = pyfiglet.figlet_format("ROBLOX", font="big")
@@ -178,7 +177,7 @@ def lang_select():
 
     tr = ch == "2"
 
-    # After language is known, show theme selector
+   
     theme_select(tr)
 
     _clr()
@@ -190,7 +189,7 @@ def lang_select():
     return tr
 
 
-# ── Webhook setup ──────────────────────────────────────────────────────────
+# Webhook
 
 def webhook_setup(tr=False):
     """Prompt user for optional Discord webhook URL."""
