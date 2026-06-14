@@ -1,3 +1,5 @@
+#these lines are assisted by AI
+
 APP_VER = "2.2.0"
 APP_BY  = "kanhe"
 
