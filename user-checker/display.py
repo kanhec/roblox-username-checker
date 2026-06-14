@@ -38,7 +38,7 @@ def _lc(r):
     return f"[dim]{lo}[/dim]"
 
 
-# ── Static result tables (shown after run) ────────────────────────────────
+# ── Static result tables
 
 def taken_tbl(res, tr=False):
     th = config.theme()
@@ -171,7 +171,7 @@ def all_results(res, elapsed, tr=False):
     summary(res, elapsed, tr)
 
 
-# ── Live table (updated in real-time while checking) ──────────────────────
+# table
 
 def _build_live_table(av: list[str], taken_count: int, done: int, total: int,
                       tr: bool) -> Table:
