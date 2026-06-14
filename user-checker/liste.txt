@@ -1,13 +1,7 @@
-# liste.txt — kontrol etmek istediğin kullanıcı adları
-# Her satır bir kullanıcı adı. # ile başlayan satırlar yorum sayılır.
-
+#ornek
 Builderman
 ROBLOX
 xXdarkgamerXx
 ProPlayer2025
 noob123
 _invalid
-toolongusernamethatexceedstwentycharacters
-test
-rzdev
-CoolUser99
